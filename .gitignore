@@ -1,0 +1,43 @@
+# Secrets — never commit
+shared-secrets/.env
+**/secrets/
+
+# Node
+node_modules/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local runtime artifacts (sensitive or generated)
+project/journal.csv
+project/journal.ndjson
+project/metrics_computed.csv
+project/secrets/
+project/run_metrics.js
+project1-reports/reports/
+project1-reports/reports-log.ndjson
+project2-pdf/invoices.csv
+project2-pdf/extract-log.ndjson
+project2-pdf/reports/
+project3-prices/reports/
+project3-prices/radar-log.ndjson
+project4-rag/chunks-embeddings.json
+project4-rag/rag-log.ndjson
+project5-scoring/reports/
+project5-scoring/scoring-log.ndjson
+project6-deadlines/checker-log.ndjson
+project6-deadlines/import-log.ndjson
+project6-deadlines/ledger-drop/processed/
+project7-mailbox/reports/
+project7-mailbox/mailbox-log.ndjson
+project8-dataclean/reports/
+project8-dataclean/clean-log.ndjson
+project8-dataclean/clients-clean.csv
+project9-content/content-log.ndjson
+project10-web2crm/leads.csv
+project10-web2crm/*.log
+
+# Keep demo data and demo PDF (part of demo)
+!project2-pdf/demo-invoice.pdf

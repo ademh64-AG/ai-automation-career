@@ -1,0 +1,6 @@
+id,type,title,due_date,amount,status,assignee
+INV-900,invoice,"№901 — ТОВ «Альфа»",2026-11-10,18500.00,open,alex_d64
+INV-901,invoice,"№902 — ФОП Сидорова",2026-11-12,6700.00,open,alex_d64
+TSK-900,task,"Подати податкову декларацію",2026-11-15,,open,alex_d64
+INV-902,invoice,"№903 — ТОВ «Гамма»",2026-11-14,9300.00,open,alex_d64
+TSK-901,task,"Звірити акти зверки з постачальниками",2026-11-18,,open,alex_d64
