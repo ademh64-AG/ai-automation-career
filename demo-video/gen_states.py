@@ -36,7 +36,7 @@ def intro(step):
     if step >= 1: parts.append('<div class="deco d1"></div><div class="deco d2"></div>')
     if step >= 2: parts.append('<div class="logo">AI AUTOMATION</div>')
     if step >= 3: parts.append('<h1>Демонстрация пакета автоматизации</h1>')
-    if step >= 4: parts.append('<h2>10 рабочих модулей · Демченко О.Г.</h2>')
+    if step >= 4: parts.append('<h2>10 рабочих модулей · Демченко А.Г.</h2>')
     if step >= 5: parts.append('<div class="badge">Заявки → CRM · AI Request Agent · ЗооПульт</div>')
     return wrap(intro_css, "\n".join(parts))
 
