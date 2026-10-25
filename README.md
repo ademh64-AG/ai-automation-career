@@ -113,7 +113,7 @@ ai-automation-career/
 ---
 
 ## 🎬 Демо-відео
-[portfolio-demo-v7.mp4](demo-video/portfolio-demo-v7.mp4) — 1:34, 1080p, озвучка + субтитри (російською).
+[portfolio-demo-v8.mp4](demo-video/portfolio-demo-v8.mp4) — 1:34, 1080p, озвучка + субтитри (російською).
 Скрипти генерації: `demo-video/gen_states.py`, `demo-video/gen_bgm.py`.
 
 ---
