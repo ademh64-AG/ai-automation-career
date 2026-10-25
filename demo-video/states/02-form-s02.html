@@ -1,0 +1,17 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><head><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1920px; height:1080px; font-family:'Segoe UI',sans-serif; overflow:hidden; }
+
+body { background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; }
+.card { background:#fff; border:1px solid #e2e8f0; border-radius:20px; padding:56px 64px; width:1060px; box-shadow:0 14px 40px rgba(0,0,0,.1); transition: transform .3s; }
+.card h2 { font-size:36px; margin-bottom:32px; }
+.field { margin-bottom:20px; }
+.field label { display:block; font-size:16px; color:#475569; margin-bottom:6px; font-weight:600; }
+.field input, .field textarea { width:100%; padding:15px 16px; border:1px solid #cbd5e1; border-radius:10px; font-size:20px; font-family:inherit; }
+.btn { margin-top:12px; background:#1a7f37; color:#fff; border:none; padding:17px 38px; border-radius:10px; font-size:22px; font-weight:600; display:inline-block; }
+.cursor { display:inline-block; width:3px; height:1.2em; background:#38bdf8; vertical-align:middle; margin-left:2px; animation: blink 1s step-end infinite; }
+@keyframes blink { 50% { opacity:0; } }
+
+</style></head><body>
+<div class="card"><h2>Заявка на сотрудничество</h2><div class="field"><label>Ваше имя</label><input value="Иван Петренко"></div><div class="field"><label>Телефон</label><input value="+380 68 123 45 67"><span class="cursor"></span></div><div class="field"><label>Название магазина</label><input value=""></div><div class="field"><label>Город</label><input value=""></div><div class="field"><label>Сообщение</label><textarea rows="3"></textarea></div></div>
+</body></html>

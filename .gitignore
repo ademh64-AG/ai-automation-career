@@ -41,3 +41,12 @@ project10-web2crm/*.log
 
 # Keep demo data and demo PDF (part of demo)
 !project2-pdf/demo-invoice.pdf
+
+# Demo video artifacts (temp)
+demo-video/frames/
+demo-video/frames-hd/
+demo-video/tmp*/
+demo-video/bgm.wav
+demo-video/voice*.mp3
+demo-video/part*.txt
+demo-video/tts-test.mp3
